@@ -79,6 +79,8 @@ sudo kubectl version --client --output=yaml
    ![Screenshot 2024-11-20 002045](https://github.com/user-attachments/assets/b40431a9-041d-4c28-bf9a-afb26b6d2c13)
 
    * load balancer
+   * ![Screenshot 2024-11-20 000014](https://github.com/user-attachments/assets/f62969f3-34ec-4f9c-9019-7ea96b1342e0)
+
 
 
 
