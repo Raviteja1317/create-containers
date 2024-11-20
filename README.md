@@ -37,6 +37,8 @@ sudo chmod +x /usr/local/bin/minikube
 
 
 *  aws s3api create-bucket --bucket ravi2025.local --region us-east-1
+  ![Screenshot 2024-11-20 234450](https://github.com/user-attachments/assets/a668f123-db67-41a5-b64e-ef387664851c)
+
 
   
 
