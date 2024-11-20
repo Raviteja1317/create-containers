@@ -36,6 +36,10 @@ sudo chmod +x /usr/local/bin/minikube
 ![Screenshot 2024-11-20 222936](https://github.com/user-attachments/assets/2f7333cb-320c-41d4-87b8-bcfdaa99eb9f)
 
 
+*  aws s3api create-bucket --bucket ravi2025.local --region us-east-1
+
+  
+
 * sudo kubectl version --client
 
 * sudo curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
