@@ -51,6 +51,9 @@ sudo chmod +x /usr/local/bin
     --cloud=aws \
     --zones=us-west-2a \
     --discovery-store=s3://ravi2025.local
+   
+   ![Screenshot 2024-11-20 234622](https://github.com/user-attachments/assets/620b100b-4be7-4f14-8cb8-71d6d0a3d43d)
+
 
 * sudo kubectl version --client
 
