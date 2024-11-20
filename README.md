@@ -74,6 +74,11 @@ sudo kubectl version --client --output=yaml
 *  Automatically create autoscaling
 
 *  ![Screenshot 2024-11-20 000032](https://github.com/user-attachments/assets/c40870b9-dbda-4926-8554-bf8321e03842)
+  
+
+   ![Screenshot 2024-11-20 002045](https://github.com/user-attachments/assets/b40431a9-041d-4c28-bf9a-afb26b6d2c13)
+
+   * load balancer
 
 
 
