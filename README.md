@@ -42,9 +42,9 @@ sudo chmod +x /usr/local/bin
 
 * Create cluster configuration
 
-* We will need to note which availability zones are available to us. In this example we will be deploying our cluster to the us-west-2 region.
+* We will need to note which availability zones are available to us.  we will be deploying our cluster to the us-east-1 region.
 
- aws ec2 describe-availability-zones --region us-east-1
+ * aws ec2 describe-availability-zones --region us-east-1
 
  * kops create cluster \
     --name=${NAME} \
@@ -59,7 +59,7 @@ sudo chmod +x /usr/local/bin
 
 * sudo curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
 
-sudo echo "$(cat kubectl.sha256) kubectl" | sha256sum --check
+ sudo echo "$(cat kubectl.sha256) kubectl" | sha256sum --check
 
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 
@@ -69,9 +69,7 @@ sudo kubectl version --client --output=yaml
 
 
 
-creation of pod
 
-kubectl run pod1 --image=nginx
 
-kubectl get pods
+
 
