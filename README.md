@@ -22,7 +22,7 @@ sudo curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-l
 
 ll
 sudo mv minikube-linux-amd64 /usr/local/bin/minikube
-
+![Screenshot 2024-11-20 220314](https://github.com/user-attachments/assets/e9135bf9-3e7a-4ac2-978a-0e9bedb39aed)
 sudo chmod +x /usr/local/bin/minikube
 
 sudo minikube version
