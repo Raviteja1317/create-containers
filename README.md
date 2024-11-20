@@ -69,6 +69,12 @@ sudo kubectl version --client --output=yaml
 
 *  s3 bucket
 *  ![Screenshot 2024-11-21 001027](https://github.com/user-attachments/assets/c5cd244d-524f-4075-b839-d6b1058b53c7)
+  
+
+*  Automatically create autoscaling
+
+*  ![Screenshot 2024-11-20 000032](https://github.com/user-attachments/assets/c40870b9-dbda-4926-8554-bf8321e03842)
+
 
 
 
