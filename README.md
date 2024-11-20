@@ -20,14 +20,9 @@
 
 * sudo curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 
 
- ll
-* sudo mv minikube-linux-amd64 /usr/local/bin/minikube
+
 ![Screenshot 2024-11-20 220314](https://github.com/user-attachments/assets/e9135bf9-3e7a-4ac2-978a-0e9bedb39aed)
-sudo chmod +x /usr/local/bin/minikube
-
-* sudo minikube version
-
-* sudo apt install curl wget apt-transport-https -y
+sudo chmod +x /usr/local/bin
 
 
 * sudo curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
@@ -39,8 +34,23 @@ sudo chmod +x /usr/local/bin/minikube
 *  aws s3api create-bucket --bucket ravi2025.local --region us-east-1
   ![Screenshot 2024-11-20 234450](https://github.com/user-attachments/assets/a668f123-db67-41a5-b64e-ef387664851c)
 
+* aws s3api put-bucket-versioning --bucket ravi2025.local   --versioning-configuration Status=Enabled
 
-  
+* export NAME=ravi2025.example.com
+
+* export KOPS_STATE_STORE=s3://ravi2025.local-state-store
+
+* Create cluster configuration
+
+* We will need to note which availability zones are available to us. In this example we will be deploying our cluster to the us-west-2 region.
+
+ aws ec2 describe-availability-zones --region us-east-1
+
+ * kops create cluster \
+    --name=${NAME} \
+    --cloud=aws \
+    --zones=us-west-2a \
+    --discovery-store=s3://ravi2025.local
 
 * sudo kubectl version --client
 
@@ -54,7 +64,7 @@ sudo kubectl version --client
 
 sudo kubectl version --client --output=yaml
 
-sudo minikube start --driver=docker --force
+
 
 creation of pod
 
