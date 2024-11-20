@@ -67,6 +67,10 @@ sudo kubectl version --client
 
 sudo kubectl version --client --output=yaml
 
+*  s3 bucket
+*  ![Screenshot 2024-11-21 001027](https://github.com/user-attachments/assets/c5cd244d-524f-4075-b839-d6b1058b53c7)
+
+
 
 
 
