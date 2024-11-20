@@ -33,6 +33,9 @@ sudo chmod +x /usr/local/bin/minikube
 * sudo curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 ![Screenshot 2024-11-20 215333](https://github.com/user-attachments/assets/0a8d2331-ad7a-46db-aac2-38ddaa399316)
 
+![Screenshot 2024-11-20 222936](https://github.com/user-attachments/assets/2f7333cb-320c-41d4-87b8-bcfdaa99eb9f)
+
+
 * sudo kubectl version --client
 
 * sudo curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
