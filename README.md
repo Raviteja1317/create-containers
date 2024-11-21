@@ -50,14 +50,14 @@ sudo chmod +x /usr/local/bin
 
   # Create the Kubernetes cluster with the updated state and configuration
 kops create cluster \
-    --name=ravi.com \
+    --name=teja.com \
     --state=s3://ravi2025.local \
     --zones=us-east-1a \
     --control-plane-size=t2.micro \
     --node-size=t2.micro
 
-kops get cluster --name ravi.com --state=s3://ravi2025.local
-kops update cluster --name ravi.com --state=s3://ravi2025.local --control-plane-size t2.micro --yes
+kops get cluster --name teja.com --state=s3://ravi2025.local
+kops update cluster --name teja.com --state=s3://ravi2025.local --control-plane-size t2.micro --yes
 
 *  s3 bucket
 *  ![Screenshot 2024-11-21 001027](https://github.com/user-attachments/assets/c5cd244d-524f-4075-b839-d6b1058b53c7)
@@ -95,7 +95,7 @@ kops update cluster --name ravi.com --state=s3://ravi2025.local --control-plane-
       
       - containerPort: 80
       
-    - name: vinod12
+    - name: teja
     
       image: ubuntu
       
