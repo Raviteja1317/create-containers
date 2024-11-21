@@ -47,6 +47,11 @@ sudo chmod +x /usr/local/bin
  * aws ec2 describe-availability-zones --region us-east-1
    
    ![Screenshot 2024-11-20 234622](https://github.com/user-attachments/assets/620b100b-4be7-4f14-8cb8-71d6d0a3d43d)
+   
+
+   # Given Path
+   ![Screenshot 2024-11-20 221156](https://github.com/user-attachments/assets/a22c1701-1807-4079-b28a-4a5d91f92e61)
+
 
   # Create the Kubernetes cluster with the updated state and configuration
 kops create cluster \
