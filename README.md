@@ -75,17 +75,17 @@ kops update cluster --name ravi.com --state=s3://ravi2025.local --control-plane-
  
    * vi ravi.yml
      
-   apiVersion: v1
+    apiVersion: v1
    
-   kind: Pod
+    kind: Pod
    
- metadata:
+    metadata:
  
-  name: kops-pod
+     name: kops-pod
   
-spec:
+    spec:
 
-  containers:
+     containers:
   
     - name: ravi
     
