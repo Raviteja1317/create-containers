@@ -21,14 +21,14 @@
 * sudo curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 
 
 
-![Screenshot 2024-11-20 220314](https://github.com/user-attachments/assets/e9135bf9-3e7a-4ac2-978a-0e9bedb39aed)
+ ![Screenshot 2024-11-20 220314](https://github.com/user-attachments/assets/e9135bf9-3e7a-4ac2-978a-0e9bedb39aed)
 sudo chmod +x /usr/local/bin
 
 
 * sudo curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
-![Screenshot 2024-11-20 215333](https://github.com/user-attachments/assets/0a8d2331-ad7a-46db-aac2-38ddaa399316)
+ ![Screenshot 2024-11-20 215333](https://github.com/user-attachments/assets/0a8d2331-ad7a-46db-aac2-38ddaa399316)
 
-![Screenshot 2024-11-20 222936](https://github.com/user-attachments/assets/2f7333cb-320c-41d4-87b8-bcfdaa99eb9f)
+ ![Screenshot 2024-11-20 222936](https://github.com/user-attachments/assets/2f7333cb-320c-41d4-87b8-bcfdaa99eb9f)
 
 
 *  aws s3api create-bucket --bucket ravi2025.local --region us-east-1
