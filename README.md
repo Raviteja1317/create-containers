@@ -103,9 +103,6 @@ spec:
       
   :wq!
   
- kubectl apply -f ravi.yml
-
-kubectl get pod
 ![Screenshot 2024-11-21 093943](https://github.com/user-attachments/assets/8c935476-f8a8-457f-8889-0a6b4ba5f929)
 
 
