@@ -74,22 +74,40 @@ kops update cluster --name ravi.com --state=s3://ravi2025.local --control-plane-
    * ![Screenshot 2024-11-20 000014](https://github.com/user-attachments/assets/f62969f3-34ec-4f9c-9019-7ea96b1342e0)
  
    * vi ravi.yml
-apiVersion: v1
-kind: Pod
-metadata:
+     
+   apiVersion: v1
+   
+   kind: Pod
+   
+ metadata:
+ 
   name: kops-pod
+  
 spec:
+
   containers:
+  
     - name: ravi
+    
       image: nginx
+      
       ports:
+      
       - containerPort: 80
+      
     - name: vinod12
+    
       image: ubuntu
+      
       command: ["sh", "-c", "while true; do echo 'welcome to skywaves'; sleep 10; done"]
-:wq!
-kubectl apply -f ravi.yml
+      
+  :wq!
+  
+ kubectl apply -f ravi.yml
+
 kubectl get pod
+![Screenshot 2024-11-21 093943](https://github.com/user-attachments/assets/8c935476-f8a8-457f-8889-0a6b4ba5f929)
+
 
 
 
